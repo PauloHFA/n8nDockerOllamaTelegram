@@ -1,6 +1,6 @@
 N8N Docker Ollama Telegram
 
-Primeiro passo vamos pegar a ultima imagem docker do telegram com docker pull n8nio/n8n:latest, se não possuir os pacotes necessarios para rodar o docker na sua maquina utilize os comandos 
+Primeiro passo vamos pegar a ultima imagem docker do telegram com docker pull n8nio/n8n:latest, se não possuir os pacotes necessarios para rodar o docker na sua maquina utilize os comandos: 
 sudo apt update
 sudo apt install -y docker.io docker-compose
 
