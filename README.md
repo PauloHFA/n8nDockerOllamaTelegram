@@ -37,5 +37,5 @@ agora com o nosso container rodando nos podemos acessar o n8n para começarmos a
 
 <img width="1484" height="672" alt="image" src="https://github.com/user-attachments/assets/93f72574-4665-4e8e-9cad-cc37e7b2d0b7" />
 
-agora vamos montar nosso fluxo usando um IA agente que vai ser o ollama o telegram Api, para conseguir utilizar o chatbot.
+agora vamos montar nosso fluxo usando um IA agente que vai ser o Ollama local e o telegram Api, para conseguir utilizar o chatbot. Para configurar o telegram precisaremos das credenciais do bot do telegram para isso precisamos entrar no telegram e pedir as credenciais para um outro bot do proprio telegram chamado de BotFather ![WhatsApp Image 2025-09-16 at 14 46 06](https://github.com/user-attachments/assets/1287ca83-641c-485a-9cd9-6a14d4889c74)
 
