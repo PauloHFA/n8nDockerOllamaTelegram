@@ -1,10 +1,15 @@
 N8N Docker Ollama Telegram
 
-Primeiro passo vamos pegar a ultima imagem docker do telegram com docker pull n8nio/n8n:latest
+Primeiro passo vamos pegar a ultima imagem docker do telegram com docker pull n8nio/n8n:latest, se não possuir os pacotes necessarios para rodar o docker na sua maquina utilize os comandos 
+sudo apt update
+sudo apt install -y docker.io docker-compose
+
 
 <img width="687" height="408" alt="image" src="https://github.com/user-attachments/assets/2949fa64-7d90-445a-b13c-f123b0bd17fd" />
 
 agora vamos criar o docker.yml para manter as configurações e alterações feitar no container atraves de persistencia
+    
+<img width="461" height="449" alt="image" src="https://github.com/user-attachments/assets/209fd7db-080c-4b47-a691-f6a48d29c618" />
 
 services:
   n8n:
@@ -23,5 +28,4 @@ services:
     volumes:
       - ./n8n_data:/home/node/.n8n
     restart: unless-stopped
-    
-<img width="461" height="449" alt="image" src="https://github.com/user-attachments/assets/209fd7db-080c-4b47-a691-f6a48d29c618" />
+
