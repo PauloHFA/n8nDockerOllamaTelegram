@@ -37,3 +37,5 @@ agora com o nosso container rodando nos podemos acessar o n8n para começarmos a
 
 <img width="1484" height="672" alt="image" src="https://github.com/user-attachments/assets/93f72574-4665-4e8e-9cad-cc37e7b2d0b7" />
 
+agora vamos montar nosso fluxo usando um IA agente que vai ser o ollama o telegram Api, para conseguir utilizar o chatbot.
+
