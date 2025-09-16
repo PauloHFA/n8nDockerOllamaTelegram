@@ -1,0 +1,25 @@
+N8N Docker Ollama Telegram
+
+Primeiro passo vamos pegar a ultima imagem docker do telegram com docker pull n8nio/n8n:latest
+
+<img width="687" height="408" alt="image" src="https://github.com/user-attachments/assets/2949fa64-7d90-445a-b13c-f123b0bd17fd" />
+
+agora vamos criar o docker.yml para manter as configurações e alterações feitar no container atraves de persistencia
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=seu_usuario
+      - N8N_BASIC_AUTH_PASSWORD=sua_senha
+      - N8N_HOST=0.0.0.0
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - GENERIC_TIMEZONE=America/Sao_Paulo
+    volumes:
+      - ./n8n_data:/home/node/.n8n
+    restart: unless-stopped
