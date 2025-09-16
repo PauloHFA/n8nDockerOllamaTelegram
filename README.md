@@ -37,5 +37,8 @@ agora com o nosso container rodando nos podemos acessar o n8n para começarmos a
 
 <img width="1484" height="672" alt="image" src="https://github.com/user-attachments/assets/93f72574-4665-4e8e-9cad-cc37e7b2d0b7" />
 
-agora vamos montar nosso fluxo usando um IA agente que vai ser o Ollama local e o telegram Api, para conseguir utilizar o chatbot. Para configurar o telegram precisaremos das credenciais do bot do telegram para isso precisamos entrar no telegram e pedir as credenciais para um outro bot do proprio telegram chamado de BotFather ![WhatsApp Image 2025-09-16 at 14 46 06](https://github.com/user-attachments/assets/1287ca83-641c-485a-9cd9-6a14d4889c74)
+agora vamos montar nosso fluxo usando um IA agente que vai ser o Ollama local e o telegram Api, para conseguir utilizar o chatbot. Para configurar o telegram precisaremos das credenciais do bot do telegram para isso precisamos entrar no telegram e pedir as credenciais para um outro bot do proprio telegram chamado de BotFather *quero  deixar esta imagem menor, se não for possivel cortar, ![WhatsApp Image 2025-09-16 at 14 46 06](https://github.com/user-attachments/assets/1287ca83-641c-485a-9cd9-6a14d4889c74), depois de conseguir as credencias vamos cadastrar no N8N, vamos adicionar nosso primeiro fluxo/gatilho buscando por telegram e marcando a condição do trigger on message. 
+
+<img width="365" height="520" alt="image" src="https://github.com/user-attachments/assets/3624be89-6146-448b-98d1-df3ee04ee0b0" />
+
 
