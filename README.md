@@ -23,3 +23,5 @@ services:
     volumes:
       - ./n8n_data:/home/node/.n8n
     restart: unless-stopped
+    
+<img width="461" height="449" alt="image" src="https://github.com/user-attachments/assets/209fd7db-080c-4b47-a691-f6a48d29c618" />
