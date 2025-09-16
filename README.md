@@ -29,3 +29,6 @@ services:
       - ./n8n_data:/home/node/.n8n
     restart: unless-stopped
 
+pos feita as configurações de persistencia vamos buildar e rodar a imagem,com os comandos docker compose up -d ou via id do container, e vamos verificar se o container esta up rodando corretamente na porta definida no nosso docker-compose.yml. 
+
+<img width="1177" height="196" alt="image" src="https://github.com/user-attachments/assets/dd01eb3e-f140-42f1-ade9-87e97910408a" />
