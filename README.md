@@ -92,7 +92,21 @@ depois vamos verificar se o Ollama esta rodando com o comando: curl http://local
 
 <img width="466" height="90" alt="image" src="https://github.com/user-attachments/assets/f1b4797c-2871-4cee-8f36-7711539dcb8e" />
 
-com ele rodando vamos colocar as credenciais no n8n
+para evitar problema de configurção e comunicação do Ollama com o n8n docker, vamos utilziar uma boa pratica e tambem rodar o Ollama em docker para isso precisamos parar a porta que o ollama esta rodando, e depois montar a imagem com o comando: docker run -d \
+  --name ollama \
+  --network n8n-net \
+  -p 11434:11434 \
+  -v /usr/share/ollama/.ollama/models:/home/ollama/.ollama/models \
+  ollama/ollama:latest serve
+  
+executando o comando --network n8n-net faz com que os dois containers consigam se comunicar na mesma rede. Agora nos podemos verificar que os dois containers estão up com o comando docker ps -a
+
+<img width="1176" height="177" alt="image" src="https://github.com/user-attachments/assets/0dc2053b-ccd9-4959-82a1-c534bd2da861" />
+
+vamos adicionar as novas configurações do Ollama no docker-compose.yml.
+
+<img width="649" height="264" alt="image" src="https://github.com/user-attachments/assets/d9de18b1-31ef-456e-bf34-52f23dd54405" />
+
+vamos derrubar o container e subir novamente por causa das novas configurações, depois com ele rodando vamos colocar as credenciais do Ollama no n8n.
 
 <img width="412" height="356" alt="image" src="https://github.com/user-attachments/assets/0e9d2d6d-6376-4415-9444-8f56a934c9bf" />
-
