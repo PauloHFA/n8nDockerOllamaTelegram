@@ -46,7 +46,7 @@ com o docker rodando e o ngrok baixado e instalado vamos rodar o comando: ngrok 
 
 <img width="761" height="327" alt="image" src="https://github.com/user-attachments/assets/6a49507d-adf9-4534-8de5-228048efea67" />
 
-precisamos adicionar a url fornecida pelo ngrok no WEBHOOK_URL=https://3ae719727239.ngrok-free.app no caso desta instancia, fique atento que cada nova execução do ngrok vai ser uma url diferente, havendo a necessidade de trocar no WEBHOOK.
+precisamos adicionar a url fornecida pelo ngrok no docke-compose.yml: WEBHOOK_URL=https://3ae719727239.ngrok-free.app no caso desta instancia, fique atento que cada nova execução do ngrok vai ser uma url diferente, havendo a necessidade de trocar no WEBHOOK.
 
 se você fizer alguma alteração no container ou ele não tiver rodando corretamente ele vai dar algum codigo 500, então experiemente derrubar o container e executar novamente para verificar se mudou o status.
 
