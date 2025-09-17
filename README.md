@@ -112,6 +112,7 @@ vamos derrubar o container e subir novamente por causa das novas configurações
 
 <img width="619" height="193" alt="image" src="https://github.com/user-attachments/assets/1c172444-8e60-4cd9-ba08-fe3dc0dc6d17" /> 
 
-Depois com ele rodando vamos colocar as credenciais do Ollama no n8n.
+Depois com ele rodando vamos colocar as credenciais do Ollama no n8n. Na primeira vez você vai precisar configurar new credetials, apenas passando a url do modelo que esta em localhost <img width="1193" height="567" alt="image" src="https://github.com/user-attachments/assets/dccffe6a-348a-4ddc-9acf-464ba28de5b7" />
+
 
 <img width="412" height="356" alt="image" src="https://github.com/user-attachments/assets/0e9d2d6d-6376-4415-9444-8f56a934c9bf" />
