@@ -42,7 +42,7 @@ wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
 tar -xvzf ngrok-v3-stable-linux-amd64.tgz
 sudo mv ngrok /usr/local/bin/
 
-com o docker rodando e o ngrok baixado e instalado vamos rodar o comando ngrok http 5678, para expor a aplicação, se o ngrok não funcionar você precisa realizar um cadastro no proprio site do ngrok https://ngrok.com. Se ele estiver rodando corretamente vai aparecer desta maneira
+com o docker rodando e o ngrok baixado e instalado vamos rodar o comando: ngrok http 5678, para expor a aplicação, se o ngrok não funcionar você precisa realizar um cadastro no proprio site do ngrok https://ngrok.com. Se ele estiver rodando corretamente vai aparecer desta maneira
 
 <img width="761" height="327" alt="image" src="https://github.com/user-attachments/assets/6a49507d-adf9-4534-8de5-228048efea67" />
 
