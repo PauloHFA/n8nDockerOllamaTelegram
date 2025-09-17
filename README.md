@@ -112,7 +112,16 @@ vamos derrubar o container e subir novamente por causa das novas configurações
 
 <img width="619" height="193" alt="image" src="https://github.com/user-attachments/assets/1c172444-8e60-4cd9-ba08-fe3dc0dc6d17" /> 
 
-Depois com ele rodando vamos colocar as credenciais do Ollama no n8n. Na primeira vez você vai precisar configurar new credetials, apenas passando a url do modelo que esta em localhost <img width="1193" height="567" alt="image" src="https://github.com/user-attachments/assets/dccffe6a-348a-4ddc-9acf-464ba28de5b7" />
-
+Depois com ele rodando vamos colocar as credenciais do Ollama no n8n. Na primeira vez você vai precisar configurar new credetials, apenas passando a url do modelo que esta em localhost 
 
 <img width="412" height="356" alt="image" src="https://github.com/user-attachments/assets/0e9d2d6d-6376-4415-9444-8f56a934c9bf" />
+<img width="1193" height="567" alt="image" src="https://github.com/user-attachments/assets/dccffe6a-348a-4ddc-9acf-464ba28de5b7" />
+
+e por fim precisamos colocar o ultimo fluxo, da saida das mensagens, que vai receber o id da mensgem e retornar um json de texto. 
+
+<img width="1116" height="562" alt="image" src="https://github.com/user-attachments/assets/ddeb1fc6-c219-40c4-8ee3-f33d9e23da9f" />
+<img width="561" height="687" alt="image" src="https://github.com/user-attachments/assets/eb2e294e-f200-42bb-9532-fe5f526905d7" />
+
+e agora nos podemos testar nosso bot conversando com ele normalmente pelo telegram.
+
+![WhatsApp Image 2025-09-17 at 15 49 37](https://github.com/user-attachments/assets/710ac449-f815-4b76-adc5-f59479382c48)
