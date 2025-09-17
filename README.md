@@ -61,3 +61,7 @@ agora vamos montar nosso fluxo usando um IA agente que vai ser o Ollama local e 
 e vamos inserir nossas credencias que o bot nos deu
 
 <img width="397" height="523" alt="image" src="https://github.com/user-attachments/assets/ee073b55-8bc9-4252-a00e-058ad65a6bd0" />
+
+depois de conectar o telegram vamos adicionar um IA agente no fluxo.
+
+<img width="714" height="273" alt="image" src="https://github.com/user-attachments/assets/5049d3cb-ac2b-4f68-a879-5834b994771d" />
