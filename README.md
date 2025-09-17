@@ -82,3 +82,13 @@ agora vamos conectar nosso modelo de IA, você pode utilizar qualquer modelo de 
 
 <img width="1371" height="130" alt="image" src="https://github.com/user-attachments/assets/e8f25959-08d5-40d2-9fdf-f365ccdcd6fc" />
 
+podemos testar ele atraves do comando: ollama run llama3 
+
+<img width="388" height="112" alt="image" src="https://github.com/user-attachments/assets/b23a02d2-3a57-45f6-ac19-89d36af341f8" />
+
+por padrão o Ollama e executado na porta 11434, vamos deixar ele listen nesta porta para chamar a porta no n8n, vamos utilizar o comando: sudo systemctl enable ollama
+sudo systemctl start ollama, 
+depois vamos verificar se o Ollama esta rodando com o comando: curl http://localhost:11434
+
+<img width="466" height="90" alt="image" src="https://github.com/user-attachments/assets/f1b4797c-2871-4cee-8f36-7711539dcb8e" />
+
