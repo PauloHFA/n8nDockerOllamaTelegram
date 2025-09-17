@@ -48,6 +48,12 @@ com o docker rodando e o ngrok baixado e instalado vamos rodar o comando: ngrok 
 
 precisamos adicionar a url fornecida pelo ngrok no WEBHOOK_URL=https://3ae719727239.ngrok-free.app no caso desta instancia, fique atento que cada nova execução do ngrok vai ser uma url diferente, havendo a necessidade de trocar no WEBHOOK.
 
+se você fizer alguma alteração no container ou ele não tiver rodando corretamente ele vai dar algum codigo 500, então experiemente derrubar o container e executar novamente para verificar se mudou o status.
+
+<img width="1159" height="484" alt="image" src="https://github.com/user-attachments/assets/74c57fe3-b74c-4d4c-aa20-3ee589c4d282" />
+
+para acessar o container você vai utilizar a url do ngrok, no nosso caso e https://3ae719727239.ngrok-free.app
+
 agora vamos montar nosso fluxo usando um IA agente que vai ser o Ollama local e o telegram Api, para conseguir utilizar o chatbot. Para configurar o telegram precisaremos das credenciais do bot do telegram para isso precisamos entrar no telegram e pedir as credenciais para um outro bot do proprio telegram chamado de BotFather *quero  deixar esta imagem menor, se não for possivel cortar, ![WhatsApp Image 2025-09-16 at 14 46 06](https://github.com/user-attachments/assets/1287ca83-641c-485a-9cd9-6a14d4889c74) depois de conseguir as credencias vamos cadastrar no N8N, vamos adicionar nosso primeiro fluxo/gatilho buscando por telegram e marcando a condição do trigger on message. 
 
 <img width="365" height="520" alt="image" src="https://github.com/user-attachments/assets/3624be89-6146-448b-98d1-df3ee04ee0b0" />
