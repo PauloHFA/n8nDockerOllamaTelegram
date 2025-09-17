@@ -92,3 +92,7 @@ depois vamos verificar se o Ollama esta rodando com o comando: curl http://local
 
 <img width="466" height="90" alt="image" src="https://github.com/user-attachments/assets/f1b4797c-2871-4cee-8f36-7711539dcb8e" />
 
+com ele rodando vamos colocar as credenciais no n8n
+
+<img width="412" height="356" alt="image" src="https://github.com/user-attachments/assets/0e9d2d6d-6376-4415-9444-8f56a934c9bf" />
+
