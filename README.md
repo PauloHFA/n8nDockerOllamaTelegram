@@ -108,7 +108,7 @@ vamos adicionar as novas configurações do Ollama no docker-compose.yml.
 <img width="649" height="264" alt="image" src="https://github.com/user-attachments/assets/d9de18b1-31ef-456e-bf34-52f23dd54405" />
 
 vamos derrubar o container e subir novamente por causa das novas configurações, lembre-se de derrubar os dois containers individualmente antes de executar novamente,apos realizar está ação eu enfrentei erros de permissão do diretorio se acontecer libere as permissões e rode o container novamente, ao rodar novamente eu perdi toda minha configuração que eu tinha feito dentro do n8n por causa das permissões do diretorio que armazenam as alterações feitas  volumes:
-      - ./n8n_data:/home/node/.n8n, importante checar as permissões e se esta configuraçã esta definida para verificar se existe este bind use o comando:  docker inspect n8n | grep -A 5 Mounts,
+      - ./n8n_data:/home/node/.n8n, importante checar as permissões e se esta configuraçã esta definida para verificar se existe este bind use o comando:  docker inspect n8n | grep -A 5 Mounts, se a configuração não existir crie uma pasta e estabeleça está relação entre o volumes e uma pasta para armazenar as alterações realizadas no n8n container.
 
 <img width="619" height="193" alt="image" src="https://github.com/user-attachments/assets/1c172444-8e60-4cd9-ba08-fe3dc0dc6d17" /> 
 
