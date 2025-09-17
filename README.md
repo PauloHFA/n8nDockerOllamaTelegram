@@ -65,3 +65,16 @@ e vamos inserir nossas credencias que o bot nos deu
 depois de conectar o telegram vamos adicionar um IA agente no fluxo.
 
 <img width="714" height="273" alt="image" src="https://github.com/user-attachments/assets/5049d3cb-ac2b-4f68-a879-5834b994771d" />
+
+dentro do IA agente vamos definir como texto o processo, com define below text.
+
+<img width="415" height="559" alt="image" src="https://github.com/user-attachments/assets/8e3c4ac1-e433-49c0-a9a8-8e2478e53911" />
+
+<img width="415" height="559" alt="image" src="https://github.com/user-attachments/assets/650c1c2e-91dc-4182-a6f0-5afc0cda43b4" />
+
+para facilitar as configuraçãos dentro dos fluxos voce pode utilizar a aba de schema e arrastar e soltar os tipos de dados.
+
+<img width="1148" height="702" alt="image" src="https://github.com/user-attachments/assets/1fc5009f-516d-455d-8c7e-df4fb6103892" />
+
+
+
