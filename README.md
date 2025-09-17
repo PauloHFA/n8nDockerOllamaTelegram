@@ -1,5 +1,7 @@
 N8N Docker Ollama Telegram
 
+todo o processo e feito com o Linux versão Ubuntu 22.04.5 LTS
+
 Primeiro passo vamos pegar a ultima imagem docker do telegram com docker pull n8nio/n8n:latest, se não possuir os pacotes necessarios para rodar o docker na sua maquina utilize os comandos: 
 sudo apt update
 sudo apt install -y docker.io docker-compose
@@ -76,5 +78,7 @@ para facilitar as configuraçãos dentro dos fluxos voce pode utilizar a aba de 
 
 <img width="1148" height="702" alt="image" src="https://github.com/user-attachments/assets/1fc5009f-516d-455d-8c7e-df4fb6103892" />
 
+agora vamos conectar nosso modelo de IA, você pode utilizar qualquer modelo de IA se possuir as credencias o processo vai ser o mesmo. Vamos pegar as credencias do Ollama, para isso rode o comando: ollama pull llama3, vamos pegar a imagem do lamma 3, a imagem de 4.7 GB. 
 
+<img width="1371" height="130" alt="image" src="https://github.com/user-attachments/assets/e8f25959-08d5-40d2-9fdf-f365ccdcd6fc" />
 
