@@ -2,6 +2,7 @@ services:
   n8n:
     image: n8nio/n8n:latest
     container_name: n8n
+    user: "1000:1000"
     ports:
       - "5678:5678"
     environment:
@@ -12,6 +13,29 @@ services:
       - N8N_PORT=5678
       - N8N_PROTOCOL=http
       - GENERIC_TIMEZONE=America/Sao_Paulo
+      - WEBHOOK_URL=${WEBHOOK_URL}
     volumes:
       - ./n8n_data:/home/node/.n8n
+    restart: unless-stopped
+    depends_on:
+      - ollama
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./ollama_models:/home/ollama/.ollama/models
+    command: serve
+    restart: unless-stopped
+
+  ngrok:
+    image: wernight/ngrok
+    container_name: ngrok
+    command: http n8n:5678
+    environment:
+      - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN}
+    depends_on:
+      - n8n
     restart: unless-stopped
