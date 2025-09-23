@@ -39,7 +39,7 @@ agora com o nosso container rodando nos podemos acessar o n8n para começarmos a
 
 <img width="1484" height="672" alt="image" src="https://github.com/user-attachments/assets/93f72574-4665-4e8e-9cad-cc37e7b2d0b7" />
 
-para conseguir integrar as APIs externar vamos precisar de um serviço de tunnel para conseguir realizar a comunicação pois no n8n você precisa configurar a variável de ambiente WEBHOOK_URL (ou N8N_HOST + N8N_PROTOCOL) para usar essa URL você precisa de uma url valida, para isto vamos utilizar o ngrok. com o camando: sudo apt update && sudo apt install -y wget unzip
+para conseguir integrar as APIs externar vamos precisar de um dns valido então vamos utilizar um serviço de tunnel para conseguir realizar a comunicação pois no n8n você precisa configurar a variável de ambiente WEBHOOK_URL (ou N8N_HOST + N8N_PROTOCOL) para usar essa URL você precisa de uma url valida, para isto vamos utilizar o ngrok. com o camando: sudo apt update && sudo apt install -y wget unzip
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
 tar -xvzf ngrok-v3-stable-linux-amd64.tgz
 sudo mv ngrok /usr/local/bin/
