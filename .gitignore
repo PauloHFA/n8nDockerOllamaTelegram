@@ -1,1 +1,5 @@
-.env
+# Dados do n8n
+n8n_data/
+
+# Modelo Ollama
+ollama_data/

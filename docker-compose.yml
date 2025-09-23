@@ -33,9 +33,6 @@ services:
   ngrok:
     image: wernight/ngrok
     container_name: ngrok
-    command: http n8n:5678
-    environment:
-      - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN}
     depends_on:
       - n8n
     restart: unless-stopped
